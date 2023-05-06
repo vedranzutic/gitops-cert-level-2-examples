@@ -17,7 +17,7 @@ spec:
           - clusters: {}
   template:
     metadata:
-      name: '{{path.basename}}-{{name}}'
+      name: '{{path.basename}}'
     spec:
       project: '{{metadata.labels.environment}}'
       source:
